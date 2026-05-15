@@ -1,10 +1,10 @@
 def main() -> None:
-    file_name = input("Enter file name: ")
+    file_name = input("Enter name of the file: ")
     strings = []
     string = ""
     while not string == "stop" or string == "STOP":
         strings.append(string)
-        string = input("Enter new string: ")
+        string = input("Enter new line of content: ")
         if not string == "stop" or string == "":
             strings += "\n"
     strings = strings[2:]
