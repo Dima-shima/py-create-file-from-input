@@ -12,7 +12,3 @@ def main() -> None:
     result = "".join(strings)
     with open(f"{file_name}.txt", "w") as f:
         f.write(result)
-
-
-if __name__ == "__main__":
-    main()
